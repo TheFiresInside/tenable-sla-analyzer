@@ -9,6 +9,17 @@ and exports.
 See the [Releases](../../releases) tab. Each release ships a single Windows
 executable plus a `SHA256SUMS.txt`.
 
+## About the auto-generated "Source code" archives
+
+GitHub automatically attaches `Source code (zip)` and `Source code (tar.gz)`
+to every release. **These archives contain only this README — no analyzer
+source code is published in this repository or any of its release assets.**
+
+The analyzer is distributed exclusively as built, signed binaries. The source
+code is closed and is not hosted on GitHub. There is no upstream / parent
+repository, no fork relationship, no template relationship, and no webhook
+connecting this repository to any source-bearing system.
+
 ## Verifying a download
 
 ### Authenticode signature (PowerShell)
@@ -41,5 +52,4 @@ please open an issue.
 ## Author / contact
 
 Builds signed by **Elliot Anstey** &lt;ea.infosec@gmail.com&gt; via SSL.com Code
-Signing CA. Source code is not published in this repository; only built,
-signed binaries are distributed here.
+Signing CA.
